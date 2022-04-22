@@ -1,46 +1,45 @@
-# Getting Started with Create React App
+# クライアント
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+本プロジェクトは [Create React App](https://github.com/facebook/create-react-app) で作成されました。
 
-## Available Scripts
+## スクリプト
 
-In the project directory, you can run:
+プロジェクトディレクトリで以下を実行できます。
 
-### `npm start`
+### 開発モードでアプリを実行
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```sh
+npm start
+```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Web ブラウザで [http://localhost:3000/](http://localhost:3000/) から閲覧できる
 
-### `npm test`
+### インタラクティブ監視モードでテストランナーを起動
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```sh
+npm test
+```
 
-### `npm run build`
+詳細は [running tests](https://facebook.github.io/create-react-app/docs/running-tests) を参照する
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 本番アプリを `build` フォルダにビルド
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```sh
+npm run build
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+詳細は [deployment](https://facebook.github.io/create-react-app/docs/deployment) を参照する
 
-### `npm run eject`
+### プロジェクトからビルドルールを削除
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```sh
+npm run eject
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+注意：実行すると元に戻せません（通常は使用しない）
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 追加情報
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+詳細は [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started) を参照する
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+React を学習するには [React documentation](https://reactjs.org/) を参照する
