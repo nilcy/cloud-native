@@ -194,7 +194,7 @@ const brokerConfig: BrokerOptions = {
 	middlewares: [],
 
 	// Register custom REPL commands.
-	replCommands: null,
+	// replCommands: null,
 	/*
 	// Called after broker created.
 	created : (broker: ServiceBroker): void => {},
