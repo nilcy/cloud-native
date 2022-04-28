@@ -5,9 +5,9 @@
 
 # アーキテクチャ
 
-[](http://www.plantuml.com/plantuml/proxy?fmt=svg&src=https://raw.githubusercontent.com/nilcy/cloud-native/main/ARCH.pu)
+[.](http://www.plantuml.com/plantuml/proxy?fmt=svg&src=https://raw.githubusercontent.com/nilcy/cloud-native/main/ARCH.pu)
 
-g## フロントエンド(`frontend`)
+## フロントエンド(`frontend`)
 
 ### プロジェクトのベースラインを作成する
 
