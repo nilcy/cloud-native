@@ -22,6 +22,15 @@ Service - DB
 @enduml
 ```
 
+## フロントエンド(`frontend`)
+
+### プロジェクトのベースラインを作成する
+
+```sh
+$ git clone https://github.com/angelguzmaning/ts-redux-react-realworld-example-app.git
+$ mv ts-redux-react-realworld-example-app frontend
+```
+
 ## バックエンド(`backend`)
 
 ### プロジェクトのベースラインを作成する
