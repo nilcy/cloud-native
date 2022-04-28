@@ -7,23 +7,7 @@
 
 [](http://www.plantuml.com/plantuml/proxy?fmt=svg&src=https://raw.githubusercontent.com/nilcy/cloud-native/main/ARCH.pu)
 
-```plantuml
-@startuml
-skinparam monochrome true
-skinparam defaultFontName "Yu Gothic UI, sans-serif"
-actor User
-component Client
-component Gateway
-component Service
-database DB
-User - Client : React
-Client - Gateway : SuperGraph
-Gateway - Service : SubGraph
-Service - DB
-@enduml
-```
-
-## フロントエンド(`frontend`)
+g## フロントエンド(`frontend`)
 
 ### プロジェクトのベースラインを作成する
 
