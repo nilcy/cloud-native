@@ -29,6 +29,7 @@ Service - DB
 ```sh
 $ git clone https://github.com/angelguzmaning/ts-redux-react-realworld-example-app.git
 $ mv ts-redux-react-realworld-example-app frontend
+$ rm -rf frontend/.git
 ```
 
 ## バックエンド(`backend`)
