@@ -1,0 +1,13 @@
+@startuml ARCH
+skinparam monochrome true
+skinparam defaultFontName "Yu Gothic UI, sans-serif"
+actor User
+component Client
+component Gateway
+component Service
+database DB
+User - Client : React
+Client - Gateway : SuperGraph
+Gateway - Service : SubGraph
+Service - DB
+@enduml

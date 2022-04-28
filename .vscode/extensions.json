@@ -4,6 +4,8 @@
     "esbenp.prettier-vscode",
     "dbaeumer.vscode-eslint",
     "yzhang.markdown-all-in-one",
-    "shd101wyy.markdown-preview-enhanced"
+    "shd101wyy.markdown-preview-enhanced",
+    "bierner.markdown-mermaid",
+    "jebbs.plantuml"
   ]
 }

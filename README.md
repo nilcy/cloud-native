@@ -1,10 +1,11 @@
-# cloud-native
+# クラウドネイティブ(`Cloud Native`)
 
-Cloud native technologies empower organizations to build and run scalable applications in modern, dynamic environments such as public, private, and hybrid clouds. Containers, service meshes, microservices, immutable infrastructure, and declarative APIs exemplify this approach.
+クラウドネイティブテクノロジーにより、組織は、パブリッククラウド、プライベートクラウド、ハイブリッドクラウドなど、最新の動的な環境でスケーラブルなアプリケーションを構築および実行できます。
+コンテナー、サービスメッシュ、マイクロサービス、不変のインフラストラクチャ、および宣言型 API は、このアプローチの例です。
 
 # アーキテクチャ
 
-Client - Gateway -\* Services
+[](http://www.plantuml.com/plantuml/proxy?fmt=svg&src=https://raw.githubusercontent.com/nilcy/cloud-native/main/ARCH.pu)
 
 ```plantuml
 @startuml
